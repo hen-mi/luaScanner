@@ -1,0 +1,43 @@
+<KW_function>
+<ident> fact1
+<operator> (
+<ident> n
+<operator> )
+<KW_if>
+<ident> n
+<operator> ==
+<number> 0
+<KW_then>
+<KW_return>
+<number> 1
+<KW_else>
+<KW_return>
+<ident> n
+<operator> *
+<ident> fact
+<operator> (
+<ident> n
+<operator> -
+<number> 1
+<operator> )
+<KW_end>
+<KW_end>
+<ident> print
+<operator> (
+<string> "enter a number:"
+<operator> )
+<ident> a
+<operator> =
+<ident> io
+<operator> .
+<ident> read
+<operator> (
+<string> "*number"
+<operator> )
+<ident> print
+<operator> (
+<ident> fact
+<operator> (
+<ident> a
+<operator> )
+<operator> )
